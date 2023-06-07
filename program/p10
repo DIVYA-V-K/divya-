@@ -1,0 +1,7 @@
+name = input("enter a name of a person")
+age = int(input("enter a age of a person"))
+weight = float(input("enter a weight of a person"))
+if age >18 and weight >40:
+    print("1")  #eligible
+else:
+    print("0")   # not eligible
